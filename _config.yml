@@ -14,7 +14,7 @@ timezone: ''  #網站使用的時區(預設電腦系統的時區)
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://macy1215.github.io/hexo-theme
-root: /macybloghex/
+root: /hexo-theme/
 permalink: posts/:title/
 permalink_defaults:
 pretty_urls:
