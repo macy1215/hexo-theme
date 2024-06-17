@@ -1,23 +1,24 @@
 <main>
-  <div class="container-fluid">
+  <div class="container">
     <div class="my-7">
       <div class="row flex-md-row-reverse mb-md-9">
         <div class="col-12 col-md-6 px-0 overflow-hidden">
           <picture>
-            <source media="(min-width: 768px)" srcset="<%= url_for(`/images/avator3.png`) %>">
+            <source media="(min-width: 768px)" srcset="<%= url_for(`/images/avator2.png`) %>">
             <img class="w-75 ps-9" src="<%= url_for(`/images/avator.png`) %>" alt="hero banner">
           </picture>
         </div>
-        <div class="col-10 col-md-4 mx-auto mx-md-0">
+        <div class="col-10 col-md-6 mx-auto mx-md-0">
           <div class="d-flex flex-column justify-content-center align-items-center align-items-md-start h-100">
             <h1 class="mb-4 text-primary-700 fw-semibold">Hi~我是Macy!一個熱愛學習的人</h1>
             <p class="text-center text-md-start text-primary-600 fs-4 mb-0">
-              擁有視覺設計經驗5年，
-              <mark class="mark text-primary-600 fs-4">網頁切版設計師2年</mark>
+              擁有
+              <mark class="mark text-primary-600 fs-4">視覺設計經驗</mark>5年，
+              <mark class="mark text-primary-600 fs-4">網頁切版設計師</mark>2年
             </p>
             <p class="text-center text-md-start text-primary-600 fs-4">勇於挑戰＋解決需求並力求將使用者體驗更好的畫面呈現出來</p>
             <div class="d-flex">
-              <button type="button" class="btn btn-primary py-2 px-4">我的 CV
+              <button type="button" class="btn btn-outline-primary py-2 px-4">我的 CV
                 <span class="ps-1"><i class="bi bi-file-earmark-arrow-down"></i></span>
               </button>
             </div>
@@ -60,7 +61,7 @@
               </div>
               <div class="d-flex justify-content-center">
                 <a
-                  class="btn btn-lg px-6 py-3 fs-5 fw-bold text-primary-50 bg-primary icon-link icon-link-hover link-primary"
+                  class="btn btn-lg px-6 py-3 fs-5 fw-bold text-primary-50 bg-primary-500 icon-link icon-link-hover link-primary-500"
                   href="<%= url_for (`/collection/`) %>"
                 >
                   完整介紹

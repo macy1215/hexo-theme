@@ -1,15 +1,15 @@
 [
   {
     "id": 1,
-    "name": "星際旅行訂票平台",
-    "description": "悠遊宇宙的夢想，從這裡開始實現",
-    "tags": ["網頁設計", "響應式設計", "Bootstrap"]
+    "name": "好嗨遊旅遊訂購平台",
+    "description": "口袋友善方案 輕鬆遊台灣",
+    "tags": ["網頁設計", "響應式設計", "Vue框架"]
   },
   {
     "id": 2,
-    "name": "理財App",
-    "description": "連動帳戶與行動支付，讓 AI 提供您最好的理財建議",
-    "tags": ["APP設計", "iOS", "React"]
+    "name": "Hexo部落格",
+    "description": "個人作品集網站 基礎架構與Bootstrap模組",
+    "tags": ["網頁設計", "響應式設計", "Bootstrap"]
   },
   {
     "id": 3,
