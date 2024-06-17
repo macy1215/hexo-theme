@@ -75,7 +75,7 @@
             type="button"
           >
             <img
-              src="<%= url_for(`/images/work-image<%= collection.id %>.png`) %>"
+              src="/images/work-image<%= collection.id %>.png"
               class="card-img-top rounded-4"
               alt="work<%= collection.id %>"
             />
@@ -157,7 +157,7 @@
         <div class="modal-body py-7 text-center bg-primary-100">
           <img
             class="img-fluid mt-0 mt-md-7 mb-3 mb-md-4 rounded-4"
-            src="/images/modal-image1.png"
+            src="<%= url_for(`/images/modal-image1.png`) %>"
             alt="modal-image1"
           />
           <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">主視覺</h4>
@@ -166,7 +166,7 @@
           </p>
           <img
             class="img-fluid mb-3 mb-md-4 rounded-4"
-            src="/images/modal-image2.png"
+            src="<%= url_for(`/images/modal-image2.png`) %>"
             alt="modal-image2"
           />
           <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">推薦查詢</h4>

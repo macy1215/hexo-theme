@@ -32,11 +32,8 @@
         ><span class="fa fa-share"><%= __('share') %></span></a
       >
       <% if (post.comments && config.disqus_shortname){ %>
-      <a
-        href="<%- post.permalink %>#disqus_thread"
-        class="article-comment-link"
-      >
-        <span class="fa fa-comment"><%= __('comment') %></span></a
+      <a href="<%- post.permalink %>#disqus_thread" class="article-comment-link"
+        ><span class="fa fa-comment"><%= __('comment') %></span></a
       >
       <% } %> <% if (post.comments && theme.valine.enable && theme.valine.appId
       && theme.valine.appKey ){ %>
