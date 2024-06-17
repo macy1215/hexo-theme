@@ -40,7 +40,7 @@
 /* Text decorate */
 .mark {
   background-color: #fff;
-  background-image: url("/images/mark.png");
+  background-image: url($img-mark);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
@@ -51,7 +51,7 @@
   display: inline-block;
   width: 56px;
   height: 6px;
-  background-image: url("/images/title-deco-left-sm.png");
+  background-image: url($img-titleDecoLeftSm);
   vertical-align: middle;
   margin-right: 1rem;
 }
@@ -61,7 +61,7 @@
   display: inline-block;
   width: 56px;
   height: 6px;
-  background-image: url("/images/title-deco-right-sm.png");
+  background-image: url($img-titleDecoRightSm);
   vertical-align: middle;
   margin-left: 1rem;
 }
@@ -72,7 +72,7 @@
     display: inline-block;
     width: 100px;
     height: 6px;
-    background-image: url("/images/title-deco-left-lg.png");
+    background-image: url($img-titleDecoLeftLg);
     vertical-align: middle;
     margin-right: 1rem;
   }
@@ -82,7 +82,7 @@
     display: inline-block;
     width: 100px;
     height: 6px;
-    background-image: url("/images/title-deco-right-lg.png");
+    background-image: url($img-titleDecoRightLg);
     vertical-align: middle;
     margin-left: 1rem;
   }
