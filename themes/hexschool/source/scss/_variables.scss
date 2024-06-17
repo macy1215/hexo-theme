@@ -1753,9 +1753,9 @@ $nested-kbd-font-weight:            null !default; // Deprecated in v5.2.0, remo
 $pre-color:                         null !default;
 
 // 頁面背景圖片
-$img-mark: "/themes/hexschool/source/images/mark.png";
-$img-titleDecoLeftSm: "/themes/hexschool/source/images/title-deco-left-sm.png";
-$img-titleDecoRightSm: "/themes/hexschool/source/images/title-deco-right-sm.png";
-$img-titleDecoRightLg: "/themes/hexschool/source/images/title-deco-right-lg.png";
+$img-mark: "/hexo-theme/images/mark.png";
+$img-titleDecoLeftSm: "/hexo-theme/images/title-deco-left-sm.png";
+$img-titleDecoRightSm: "/hexo-theme/images/title-deco-right-sm.png";
+$img-titleDecoRightLg: "/hexo-theme/images/title-deco-right-lg.png";
 
 @import "~/bootstrap/scss/variables-dark"; // TODO: can be removed safely in v6, only here to avoid breaking changes in v5.3
