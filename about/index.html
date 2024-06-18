@@ -120,7 +120,7 @@
   <main>
   <section>
     <div class="container">
-      <div class="row">
+      <div class="row align-items-center g-5">
         <div class="col-md-6 col-12">
           <h4>Hi~ 我是 Macy ！正努力朝向前端工程師邁進</h4>
           <div>
@@ -136,8 +136,8 @@
             </p>
           </div>
         </div>
-        <div class="col-md-6 col-12">
-          <img src="../source/images/avator3.png" alt="macy" />
+        <div class="col-md-6 col-12 px-md-5 py-md-3">
+          <img src="/hexo-theme/images/avator3.png" alt="macy" class="w-100" />
         </div>
       </div>
     </div>
@@ -345,18 +345,93 @@
       <h2
         class="title-deco py-7 py-md-9 text-center text-primary-700 tracking-wide fw-semibold"
       >
-        客戶案例
+        我的作品
       </h2>
       <ul class="row row-gap-7 mb-6 mb-md-7 list-unstyled">
-         
         <li class="col-12 col-md-6 mb-2 mb-md-7">
           <div class="card bg-transparent border-0">
             <button
               data-bs-toggle="modal"
-              data-bs-target="#collectionModal"
+              data-bs-target="#collectionModal1"
               class="bg-transparent border-0"
               type="button"
             >
+              <img
+                src="/hexo-theme/images/work-image1.png"
+                class="card-img-top rounded-4"
+                alt="work-1"
+              />
+            </button>
+            <div class="card-body pb-0">
+              <h3 class="card-title text-primary-700">好嗨遊旅遊訂購平台</h3>
+              <p class="card-text mb-3 mb-md-4 text-primary-500">
+                口袋友善方案 輕鬆遊台灣
+              </p>
+              <div class="d-flex gap-3">
+                <span
+                  class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4"
+                >
+                  網頁設計
+                </span>
+                <span
+                  class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4"
+                >
+                  響應式設計
+                </span>
+                <span
+                  class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4"
+                >
+                  Vue框架
+                </span>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="col-12 col-md-6 mb-2 mb-md-7">
+          <div class="card bg-transparent border-0">
+            <button
+              data-bs-toggle="modal"
+              data-bs-target="#collectionModal2"
+              class="bg-transparent border-0"
+              type="button"
+            >
+              <img
+                src="/hexo-theme/images/work-image2.png"
+                class="card-img-top rounded-4"
+                alt="work-1"
+              />
+            </button>
+            <div class="card-body pb-0">
+              <h3 class="card-title text-primary-700">Hexo部落格-切版練習</h3>
+              <p class="card-text mb-3 mb-md-4 text-primary-500">
+                靜態作品集網站切版練習 基礎架構與Bootstrap模組
+              </p>
+              <div class="d-flex gap-3">
+                <span
+                  class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4"
+                >
+                  網頁設計
+                </span>
+                <span
+                  class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4"
+                >
+                  響應式設計
+                </span>
+                <span
+                  class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4"
+                >
+                  Bootstrap
+                </span>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <!-- <ul class="row row-gap-7 mb-6 mb-md-7 list-unstyled">
+         
+        <li class="col-12 col-md-6 mb-2 mb-md-7">
+          <div class="card bg-transparent border-0">
+            <button class="bg-transparent border-0" type="button">
               <img
                 src="/hexo-theme/images/work-image1.png"
                 class="card-img-top rounded-4"
@@ -397,12 +472,7 @@
          
         <li class="col-12 col-md-6 mb-2 mb-md-7">
           <div class="card bg-transparent border-0">
-            <button
-              data-bs-toggle="modal"
-              data-bs-target="#collectionModal"
-              class="bg-transparent border-0"
-              type="button"
-            >
+            <button class="bg-transparent border-0" type="button">
               <img
                 src="/hexo-theme/images/work-image2.png"
                 class="card-img-top rounded-4"
@@ -441,7 +511,7 @@
           </div>
         </li>
         
-      </ul>
+      </ul> -->
     </div>
   </section>
 
@@ -491,7 +561,7 @@
 
   <div
     class="modal"
-    id="collectionModal"
+    id="collectionModal1"
     tabindex="-1"
     aria-labelledby="modal"
     aria-hidden="true"
@@ -544,7 +614,7 @@
         <div class="modal-body py-7 text-center bg-primary-100">
           <img
             class="img-fluid mt-0 mt-md-7 mb-3 mb-md-4 rounded-4"
-            src="/hexo-theme/images/modal-image1.png"
+            src="(`/hexo-theme/images/modal-image1.png`)"
             alt="modal-image1"
           />
           <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">主視覺</h4>
@@ -553,7 +623,7 @@
           </p>
           <img
             class="img-fluid mb-3 mb-md-4 rounded-4"
-            src="/hexo-theme/images/modal-image2.png"
+            src="(`/hexo-theme/images/images/modal-image2.png`)"
             alt="modal-image2"
           />
           <h4 class="mb-2 mb-md-3 fs-5 text-primary-800">推薦查詢</h4>
