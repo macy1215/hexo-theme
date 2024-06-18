@@ -4,19 +4,19 @@
   <meta charset="utf-8">
   
   
-  <title>給設計師和工程師的 Figma-Dev Mode 開發模式使用指南 (下) | Macy 的部落格</title>
+  <title>手刻 Css 還是 交給Bootstrap呢？ | Macy 的部落格</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="延續上一篇針對 Dev Mode 介紹這一篇要說的就是最複雜的「右側面板」啦！右側面板預設有兩個分頁：Inspect（偵測）, Plugins（外掛），預設開啟 Inspect。 右側面板也可以顯示 Comment，但需要先在左側面板上方點擊 對話 icon，才可以在右側面板看到所有留言紀錄。">
+  <meta name="description" content="在上一份工作時，自己學習了很基礎的切版觀念，話說「金魚都能懂的 Css 必學屬性」，真的陪伴在疫情學時的我。轉職學習的路上很推薦大家自己做筆記（雖然我的筆記很亂..）。用自己的話將知識轉換成自己熟悉的文字會更加強記憶（但還是要常常碰，不然一定會忘記QQ）">
 <meta property="og:type" content="article">
-<meta property="og:title" content="給設計師和工程師的 Figma-Dev Mode 開發模式使用指南 (下)">
+<meta property="og:title" content="手刻 Css 還是 交給Bootstrap呢？">
 <meta property="og:url" content="https://macy1215.github.io/hexo-theme/figma-dev-mode-part-two/">
 <meta property="og:site_name" content="Macy 的部落格">
-<meta property="og:description" content="延續上一篇針對 Dev Mode 介紹這一篇要說的就是最複雜的「右側面板」啦！右側面板預設有兩個分頁：Inspect（偵測）, Plugins（外掛），預設開啟 Inspect。 右側面板也可以顯示 Comment，但需要先在左側面板上方點擊 對話 icon，才可以在右側面板看到所有留言紀錄。">
+<meta property="og:description" content="在上一份工作時，自己學習了很基礎的切版觀念，話說「金魚都能懂的 Css 必學屬性」，真的陪伴在疫情學時的我。轉職學習的路上很推薦大家自己做筆記（雖然我的筆記很亂..）。用自己的話將知識轉換成自己熟悉的文字會更加強記憶（但還是要常常碰，不然一定會忘記QQ）">
 <meta property="og:locale" content="zh_TW">
-<meta property="article:published_time" content="2023-11-19T16:00:00.000Z">
-<meta property="article:modified_time" content="2024-04-12T10:41:41.000Z">
+<meta property="article:published_time" content="2023-09-19T16:00:00.000Z">
+<meta property="article:modified_time" content="2024-06-17T13:16:50.753Z">
 <meta property="article:author" content="Macy Huang">
-<meta property="article:tag" content="UI&#x2F;UX 新知">
+<meta property="article:tag" content="切版設計">
 <meta name="twitter:card" content="summary">
   
   
@@ -130,22 +130,22 @@
     
       
       <li class="flex-shrink-0">
-        <a href="/hexo-theme/tags/UI-UX-%E6%96%B0%E7%9F%A5/" class=" pb-1 fs-5 text-primary-600 link-primary-500 bg-transparent text-decoration-none">
-          UI/UX 新知
+        <a href="/hexo-theme/tags/%E5%88%87%E7%89%88%E8%A8%AD%E8%A8%88/" class=" pb-1 fs-5 text-primary-600 link-primary-500 bg-transparent text-decoration-none">
+          切版設計
         </a>
       </li>
     
       
       <li class="flex-shrink-0">
-        <a href="/hexo-theme/tags/%E5%89%8D%E7%AB%AF%E9%96%8B%E7%99%BC/" class=" pb-1 fs-5 text-primary-600 link-primary-500 bg-transparent text-decoration-none">
-          前端開發
+        <a href="/hexo-theme/tags/%E7%94%9F%E6%B4%BB%E7%B4%80%E9%8C%84/" class=" pb-1 fs-5 text-primary-600 link-primary-500 bg-transparent text-decoration-none">
+          生活紀錄
         </a>
       </li>
     
       
       <li class="flex-shrink-0">
-        <a href="/hexo-theme/tags/%E6%95%B8%E4%BD%8D%E7%94%A2%E5%93%81%E8%A8%AD%E8%A8%88/" class=" pb-1 fs-5 text-primary-600 link-primary-500 bg-transparent text-decoration-none">
-          數位產品設計
+        <a href="/hexo-theme/tags/Javascript/" class=" pb-1 fs-5 text-primary-600 link-primary-500 bg-transparent text-decoration-none">
+          Javascript
         </a>
       </li>
     
@@ -157,16 +157,16 @@
           <ol class="breadcrumb">
             
               <li class="breadcrumb-item text-primary-500">
-                <a class="text-primary-500 text-decoration-none" href="/hexo-theme/tags/UI-UX-%E6%96%B0%E7%9F%A5/" rel="tag">UI/UX 新知</a>
+                <a class="text-primary-500 text-decoration-none" href="/hexo-theme/tags/%E5%88%87%E7%89%88%E8%A8%AD%E8%A8%88/" rel="tag">切版設計</a>
 
               </li>
             
-            <li class="breadcrumb-item text-primary-500 active" aria-current="page">2023/11/20 發佈</li>
+            <li class="breadcrumb-item text-primary-500 active" aria-current="page">2023/09/20 發佈</li>
           </ol>
         </nav>
-        <h1 class="mb-3 mb-lg-4 fs-2 text-center">給設計師和工程師的 Figma-Dev Mode 開發模式使用指南 (下)</h1>
+        <h1 class="mb-3 mb-lg-4 fs-2 text-center">手刻 Css 還是 交給Bootstrap呢？</h1>
         
-        <p>延續上一篇針對 Dev Mode 介紹這一篇要說的就是最複雜的「右側面板」啦！右側面板預設有兩個分頁：Inspect（偵測）, Plugins（外掛），預設開啟 Inspect。 右側面板也可以顯示 Comment，但需要先在左側面板上方點擊 對話 icon，才可以在右側面板看到所有留言紀錄。</p>
+        <p>在上一份工作時，自己學習了很基礎的切版觀念，話說「金魚都能懂的 Css 必學屬性」，真的陪伴在疫情學時的我。轉職學習的路上很推薦大家自己做筆記（雖然我的筆記很亂..）。用自己的話將知識轉換成自己熟悉的文字會更加強記憶（但還是要常常碰，不然一定會忘記QQ）</p>
 
 
         
@@ -182,28 +182,12 @@
           
             <div class="col-12 col-md-6 col-lg-4">
               <div class="card border-0">
-                <img src="/hexo-theme/images/article-image1.png" class="img-fluid card-img-top rounded-3">
-                <div class="card-body">
-                  <h5 class="card-title mb-3 text-primary-700">Vision Pro 登場！Vision Pro UI/UX 設計重點大公開 (上)</h5>
-                  <div class="d-flex justify-content-between align-items-center">
-                    
-                      <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">UI/UX 新知</span>
-                    
-                    <p class="card-text fs-6 text-primary-600"><small class="text-body-secondary">2024/02/10</small></p>
-                  </div>
-                  <a class="stretched-link" href="/hexo-theme/vision-pro-ui-ux/"></a>
-                </div>
-              </div>
-            </div>
-          
-            <div class="col-12 col-md-6 col-lg-4">
-              <div class="card border-0">
                 <img src="/hexo-theme/images/article-image3.png" class="img-fluid card-img-top rounded-3">
                 <div class="card-body">
-                  <h5 class="card-title mb-3 text-primary-700">設計師轉職前端工程師的小小步伐</h5>
+                  <h5 class="card-title mb-3 text-primary-700">Sass 與 Scss 讓你的畫面更乾淨！</h5>
                   <div class="d-flex justify-content-between align-items-center">
                     
-                      <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">UI/UX 新知</span>
+                      <span class="badge fs-6 lh-base fw-normal text-primary-700 bg-primary-200 rounded-4">切版設計</span>
                     
                     <p class="card-text fs-6 text-primary-600"><small class="text-body-secondary">2023/08/12</small></p>
                   </div>
@@ -271,8 +255,8 @@
     </div>
   </div>
   <div class="text-center p-3 bg-primary text-white">
-    © Macy Huang 2024 Copyright. All Rights Reserved.
-    版面設計由個人參考網路資源進行二次設計，此網站為個人作品展示。
+    © Macy Huang 2024 Copyright. All Rights Reserved. 版面設計使用 Hexo主題
+    與個人參考網路資源進行二次設計，此網站為個人作品展示。
   </div>
 </footer>
 
