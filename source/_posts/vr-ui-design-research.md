@@ -1,6 +1,6 @@
 ---
 title: 對新手小白像佛地魔存在的魔王-Javascript
-subtitle: 想當前端工程師你一定要知道
+subtitle: 想成為前端工程師你一定要知道
 layout: post
 author: Macy
 date: 2023/11/30
