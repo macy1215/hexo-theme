@@ -6,18 +6,20 @@
   
   <title>Sass 與 Scss 解析，讓你的畫面更乾淨！ | Macy 的部落格</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="大家比較常聽到的 Css 是最基本的樣式撰寫網頁裡特定或一群元素指定一系列的規則。通常會依照功能。Sass 與 Scss 的不同之處 !圖片出處來自六角學院">
+  <meta name="description" content="大家比較常聽到的 Css 是最基本的樣式撰寫網頁裡特定或一群元素指定一系列的規則。通常會依照功能。Sass 與 Scss 的不同之處其實在網路瀏覽器是沒有辦法直接吃到的，需要透過編譯的方式讓 Sass&#x2F;Scss 去轉換成 css 的樣式。  Sass 是一種程式語言，有兩種格式寫法  Scss （較多人使用）較適合初學者，跟 css 比較類似 Sacc   Scss寫法較類似於 css">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Sass 與 Scss 解析，讓你的畫面更乾淨！">
 <meta property="og:url" content="https://macy1215.github.io/hexo-theme/figma-dev-mode-part-one/">
 <meta property="og:site_name" content="Macy 的部落格">
-<meta property="og:description" content="大家比較常聽到的 Css 是最基本的樣式撰寫網頁裡特定或一群元素指定一系列的規則。通常會依照功能。Sass 與 Scss 的不同之處 !圖片出處來自六角學院">
+<meta property="og:description" content="大家比較常聽到的 Css 是最基本的樣式撰寫網頁裡特定或一群元素指定一系列的規則。通常會依照功能。Sass 與 Scss 的不同之處其實在網路瀏覽器是沒有辦法直接吃到的，需要透過編譯的方式讓 Sass&#x2F;Scss 去轉換成 css 的樣式。  Sass 是一種程式語言，有兩種格式寫法  Scss （較多人使用）較適合初學者，跟 css 比較類似 Sacc   Scss寫法較類似於 css">
 <meta property="og:locale" content="zh_TW">
+<meta property="og:image" content="https://firebasestorage.googleapis.com/v0/b/portfolio-1cfc7.appspot.com/o/article.png?alt=media&token=5d8abb18-20bc-439b-9b1e-da9eb2dec813">
 <meta property="article:published_time" content="2023-08-11T16:00:00.000Z">
-<meta property="article:modified_time" content="2024-06-20T03:33:37.941Z">
+<meta property="article:modified_time" content="2024-06-20T04:10:36.127Z">
 <meta property="article:author" content="Macy Huang">
 <meta property="article:tag" content="切版設計">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://firebasestorage.googleapis.com/v0/b/portfolio-1cfc7.appspot.com/o/article.png?alt=media&token=5d8abb18-20bc-439b-9b1e-da9eb2dec813">
   
   
     <link rel="shortcut icon" href="/hexo-theme/images/favicon.svg">
@@ -166,8 +168,29 @@
         </nav>
         <h1 class="mb-3 mb-lg-4 fs-2 text-center">Sass 與 Scss 解析，讓你的畫面更乾淨！</h1>
         
-        <p>大家比較常聽到的 Css 是最基本的樣式撰寫網頁裡特定或一群元素指定一系列的規則。通常會依照功能。<br>Sass 與 Scss 的不同之處</p>
-<p><a target="_blank" rel="noopener" href="https://file.notion.so/f/f/f54dd258-9eba-4825-8320-8e24bba59e93/fc7b7ba8-030e-4f64-9474-bf05061c4012/%E6%88%AA%E5%9C%96_2024-04-19_%E4%B8%8B%E5%8D%8811.19.28.png?id=9ea0873c-bc2c-4f99-879a-fa11ebb9c152&table=block&spaceId=f54dd258-9eba-4825-8320-8e24bba59e93&expirationTimestamp=1719014400000&signature=06E2uJqNXqO35_o30nMWXVKLb-qaoWDkoVGc-QymdFA&downloadName=%E6%88%AA%E5%9C%96+2024-04-19+%E4%B8%8B%E5%8D%8811.19.28.png">!圖片出處來自六角學院</a></p>
+          <h4 class="mb-4 mb-lg-9 text-center fw-normal">- 切版議題討論 -</h4>
+        
+        <p>大家比較常聽到的 Css 是最基本的樣式撰寫網頁裡特定或一群元素指定一系列的規則。通常會依照功能。<br>Sass 與 Scss 的不同之處其實在網路瀏覽器是沒有辦法直接吃到的，需要透過編譯的方式讓 Sass&#x2F;Scss 去轉換成 css 的樣式。 </p>
+<p>Sass 是一種程式語言，有兩種格式寫法</p>
+<ol>
+<li>Scss （較多人使用）較適合初學者，跟 css 比較類似</li>
+<li>Sacc</li>
+</ol>
+<p><img src="https://firebasestorage.googleapis.com/v0/b/portfolio-1cfc7.appspot.com/o/article.png?alt=media&token=5d8abb18-20bc-439b-9b1e-da9eb2dec813" alt="圖片出處六角學院" title="圖片出處六角學院"></p>
+<h4 id="Scss"><a href="#Scss" class="headerlink" title="Scss"></a>Scss</h4><p>寫法較類似於 css 他是透過一層一層去撰寫。</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">.menu &#123;</span><br><span class="line">	// 第一層 &#123;&#125;</span><br><span class="line">	li&#123;</span><br><span class="line">        font-size:30px;</span><br><span class="line">            // 第二層 &#123;&#125;</span><br><span class="line">            a&#123;</span><br><span class="line">                color:red;</span><br><span class="line">            &#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="Sass"><a href="#Sass" class="headerlink" title="Sass"></a>Sass</h4><p>sass 每一個樣式前，用兩個空白鍵（一個teb）做推進分層。每一個分號後面一定要留一個空白。<br>並且不能用分號！</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">.menu</span><br><span class="line">  font-size: 30px</span><br><span class="line">  li</span><br><span class="line">    a</span><br><span class="line">        color: red</span><br><span class="line">        letter-spacing: 5px</span><br></pre></td></tr></table></figure>
+
+<h2 id="Sass-編譯方式"><a href="#Sass-編譯方式" class="headerlink" title="Sass 編譯方式"></a><strong>Sass 編譯方式</strong></h2><p>我們可以透過什麼樣的方式在開發時使用 Ｓass&#x2F;Scss 呢？可以透過下面的方式</p>
+<ol>
+<li>透過特定軟體編譯：Prepros</li>
+<li>網頁常用：glup、webpack 前端打包工具</li>
+<li>網頁編輯器內建的插件：VScode套件-安裝Sass compiler</li>
+</ol>
+<p><span class="fs-6 text-secondary ">參考Sass官網：<a target="_blank" rel="noopener" href="https://sass-lang.com/install/">https://sass-lang.com/install/</a></span></p>
+<p>我比較常使用到 Vscode中的套件。這樣就可以編開發檢查自己的 Scss 有沒有需要調整的地方！大家可以再研究一下網路上常見的方法唷～</p>
 
 
         
